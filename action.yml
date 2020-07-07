@@ -14,7 +14,7 @@ inputs:
     required: false
 runs:
   using: "docker"
-  image: "docker://shiftleft/sast-scan:latest"
+  image: "docker://shiftleft/sast-scan:mp"
   env:
     WORKSPACE: ""
   args:
