@@ -21,6 +21,7 @@ runs:
     - "scan"
     - "--src"
     - "--Source"
+    - "--Focus"
     - ${{ inputs.src }}
     - "--out_dir"
     - ${{ inputs.output }}
