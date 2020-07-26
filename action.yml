@@ -20,6 +20,7 @@ runs:
   args:
     - "scan"
     - "--src"
+    - "--source"
     - ${{ inputs.src }}
     - "--out_dir"
     - ${{ inputs.output }}
